@@ -29,3 +29,9 @@
 https://www.youtube.com/watch?v=c6BtrwxBb4A
 
 https://www.youtube.com/watch?v=r4ctN6aEg7s
+
+## 라이브러리 설치
+
+%pip install pygame
+%pip install -q "openvino>=2024.0.0" "nncf>=2.9.0"
+%pip install -q "torch>=2.1" "torchvision>=0.16" "ultralytics==8.3.0" onnx tqdm opencv-python --extra-index-url https://download.pytorch.org/whl/cpu
