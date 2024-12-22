@@ -38,5 +38,13 @@ https://www.youtube.com/watch?v=r4ctN6aEg7s
 %pip install -q "openvino>=2024.0.0" "nncf>=2.9.0"
 %pip install -q "torch>=2.1" "torchvision>=0.16" "ultralytics==8.3.0" onnx tqdm opencv-python --extra-index-url https://download.pytorch.org/whl/cpu
 
-VIDEO_SOURCE = "person2.mp4"에서 파일 이름을 자신이 원하는 파일로 변경
+VIDEO_SOURCE = "person2.mp4"에서 파일 이름을 자신이 원하는 파일로 변경후 디바이스 실행, 
+    run_object_detection(
+    source=VIDEO_SOURCE,
+    flip=True,
+    use_popup=True,
+    model=det_ov_model,
+    device=device.value,
+    # video_width=1280,
+)
 
