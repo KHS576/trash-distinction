@@ -30,7 +30,9 @@ https://www.youtube.com/watch?v=c6BtrwxBb4A
 
 https://www.youtube.com/watch?v=r4ctN6aEg7s
 
-## 라이브러리 설치
+## 실행 방법
+
+라이브러리 설치 
 
 %pip install pygame
 %pip install -q "openvino>=2024.0.0" "nncf>=2.9.0"
